@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot_queck" />
+        <module name="test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="springboot_queck" target="1.8" />
+      <module name="springboot_quick2" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="testspringboot_demo1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="springboot_queck" options="-parameters" />
+      <module name="springboot_quick2" options="-parameters" />
+      <module name="test" options="-parameters" />
+      <module name="testspringboot_demo1" options="-parameters" />
+    </option>
+  </component>
+</project>
